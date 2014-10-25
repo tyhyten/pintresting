@@ -14,8 +14,9 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass' 
 gem 'devise', '~>3.4.0'
 gem 'paperclip', github: 'thoughtbot/paperclip'
-gem 'masonry-rails', '~>0.2.0'
 gem 'aws-sdk', '~> 1.57.0'
+gem 'masonry-rails', '~>0.2.1'
+
 
 group :development, :test do
 	gem 'sqlite3'
