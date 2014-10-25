@@ -85,7 +85,7 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
 # sets paperclip to upload images to Amazon S3
-  config.paperclip_defaults = {
+ config.paperclip_defaults = {
   :storage => :s3,
   :s3_credentials => {
     :bucket => ENV['S3_BUCKET_NAME'],
